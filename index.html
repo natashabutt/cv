@@ -54,7 +54,12 @@
     </nav>
 
     <div class="profile">
-      <img class="img-fluid profile_pic" src="profile.jpg" alt="Natasha Butt profile photo">
+      <picture>
+        <source srcset='profile.webp' type='image/webp'>
+        <source srcset='profile.jxr' type='image/vnd.ms-photo'>
+        <source srcset='profile.jp2' type='image/jp2'>
+        <img class="img-fluid profile_pic" srcset='profile.jpg' alt='Natasha Butt Photo'>
+      </picture>
     </div>
     <div class="text">
       <h1>Natasha Butt</h1>
@@ -118,8 +123,13 @@
       <h2>Projects That I'm Excited About</h2>
     </div>
     <div class="row text">
-      <div class="col-lg-6 box">
-        <img class="img-fluid" src="NLP.png" alt="">
+      <div class="col-lg-6">
+        <picture>
+          <source srcset='NLP.webp' type='image/webp'>
+          <source srcset='NLP.jxr' type='image/vnd.ms-photo'>
+          <source srcset='NLP.jp2' type='image/jp2'>
+          <img class="img-fluid" srcset='NLP.png' alt='NLP project photo'>
+        </picture>
       </div>
       <div class="col-lg-6 box">
         <h5>Mitigating Gender Bias in Occupation Classification</h5>
@@ -134,8 +144,13 @@
         <p>Stop swiping now. No more messaging. Jump straight to the first date - virtually! During lockdown, I launched Speedy, the virtual speed dating platform, to help people keep their dating lives active while social distancing. We are
           currently holding pilot events via third-party video messaging software to fine tune the experience before developing a web application for our platform. Check out the <a href="https://www.speedydating.co.uk/">website</a>.</p>
       </div>
-      <div class="col-lg-6 box">
-        <img src="Speedy.png" alt="">
+      <div class="col-lg-6">
+        <picture>
+          <source srcset='Speedy.webp' type='image/webp'>
+          <source srcset='Speedy.jxr' type='image/vnd.ms-photo'>
+          <source srcset='Speedy.jp2' type='image/jp2'>
+          <img class="img-fluid"  srcset='Speedy.png' alt='Speedy screenshot'>
+        </picture>
       </div>
     </div>
   </div>
@@ -145,28 +160,34 @@
     </div>
     <div class="row text">
       <div class="col-lg-6">
-        <img class="img-fluid" src="mediumNLP.jpg" alt="">
+        <picture>
+          <source srcset='mediumNLP.webp' type='image/webp'>
+          <source srcset='mediumNLP.jxr' type='image/vnd.ms-photo'>
+          <source srcset='mediumNLP.jp2' type='image/jp2'>
+          <img class="img-fluid"  srcset='mediumNLP.jpg' alt='Medium preview'>
+        </picture>
       </div>
       <div class="col-lg-6 box">
         <h5><a href="https://towardsdatascience.com/mitigating-gender-bias-in-occupation-classification-805edb389729">Mitigating Gender Bias in Occupation Classification</a></h5>
         <h5 class="emph">A novel use of graph convolutional networks</h5>
-        <p>"With increasing evidence that some outputs of Natural Language Processing (NLP)-based machine learning models may propagate societal biases, we investigate mitigating gender bias in the occupation classification of job biographies. Through
+        <p>"With increasing evidence that some outputs of Natural Language Processing (NLP)-based machine learning models may propagate societal biases, we investigate mitigating gender bias in the occupation classification of job biographies.
+          Through
           the novel use of a graph convolutional network, we find gender bias in occupation predictions is reduced by removing explicit gender..."</p>
         <p class="emph">Published with Towards Data Science</p>
       </div>
     </div>
   </div>
-    <div class="blue_section" id="motivation">
-      <div class="text">
-        <h1>I love working on new things.</h1>
-      </div>
-      <div class="text">
-        <h4>I am currently available for freelance work.</h4>
-      </div>
-      <div class="text">
-        <h6> If you have a project that you want to get started, would like my help with something or are interested in hearing more about my work, <b>get in touch.</b></h6>
-      </div>
+  <div class="blue_section" id="motivation">
+    <div class="text">
+      <h1>I love working on new things.</h1>
     </div>
+    <div class="text">
+      <h4>I am currently available for freelance work.</h4>
+    </div>
+    <div class="text">
+      <h6> If you have a project that you want to get started, would like my help with something or are interested in hearing more about my work, <b>get in touch.</b></h6>
+    </div>
+  </div>
   </div>
   <!-- footer   -->
   <footer class="white-section" id="footer">
@@ -179,40 +200,34 @@
     </div>
   </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- For scrolling -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
 
-    <!-- For scrolling -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        // Add smooth scrolling to all links
-        $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
 
-          // Make sure this.hash has a value before overriding default behavior
-          if (this.hash !== "") {
-            // Prevent default anchor click behavior
-            event.preventDefault();
+          // Store hash
+          var hash = this.hash;
 
-            // Store hash
-            var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
 
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 800, function() {
-
-              // Add hash (#) to URL when done scrolling (default click behavior)
-              window.location.hash = hash;
-            });
-          } // End if
-        });
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
       });
-    </script>
+    });
+  </script>
 </body>
 
 </html>
