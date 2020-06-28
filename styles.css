@@ -46,6 +46,11 @@ h5.emph{
   color: #93ABC2
 }
 
+h6.emph{
+  color: #93ABC2;
+  text-align: left
+}
+
 .blue_section{
   padding: 5% 10% 10%;
   background-color: #d4f6f5;
