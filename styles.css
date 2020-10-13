@@ -11,11 +11,11 @@ h1{
 
 h2{
   font-family: 'Philosopher',serif;
-  color: #fd7171;
+  color: #6e72b3;
 }
 
 h4{
-  color: #F6AA96
+  color: #abacc1
 }
 
 hr {
@@ -39,7 +39,7 @@ hr {
 }
 
 p.emph {
-  color:  #F6AA96
+  color:  #abacc1
 }
 
 h5.emph{
@@ -122,11 +122,11 @@ h6.emph{
 .main-timeline .timeline:nth-child(2n) .title{color:#93ABC2}
 .main-timeline .timeline:nth-child(2n) .description{color:#93ABC2}
 .main-timeline .timeline:nth-child(2n) .timeline-content:before{border-left-color:#93ABC2;border-bottom-color:#93ABC2}
-.main-timeline .timeline:nth-child(3n) .timeline-content:after,.main-timeline .timeline:nth-child(3n) .timeline-icon i,.main-timeline .timeline:nth-child(3n) .timeline-icon:before,.main-timeline .timeline:nth-child(3n):before{background:#F6AA96}
-.main-timeline .timeline:nth-child(3n) .timeline-icon{border-color:#F6AA96}
-.main-timeline .timeline:nth-child(3n) .title{color:#F6AA96}
-.main-timeline .timeline:nth-child(3n) .description{color:#F6AA96}
-.main-timeline .timeline:nth-child(3n) .timeline-content:before{border-left-color:#F6AA96;border-bottom-color:#F6AA96}
+.main-timeline .timeline:nth-child(3n) .timeline-content:after,.main-timeline .timeline:nth-child(3n) .timeline-icon i,.main-timeline .timeline:nth-child(3n) .timeline-icon:before,.main-timeline .timeline:nth-child(3n):before{background:#abacc1}
+.main-timeline .timeline:nth-child(3n) .timeline-icon{border-color:#abacc1}
+.main-timeline .timeline:nth-child(3n) .title{color:#abacc1}
+.main-timeline .timeline:nth-child(3n) .description{color:#abacc1}
+.main-timeline .timeline:nth-child(3n) .timeline-content:before{border-left-color:#abacc1;border-bottom-color:#abacc1}
 .main-timeline .timeline:nth-child(4n) .timeline-content:after,.main-timeline .timeline:nth-child(4n) .timeline-icon i,.main-timeline .timeline:nth-child(4n) .timeline-icon:before,.main-timeline .timeline:nth-child(4n):before{background:#93ABC2}
 .main-timeline .timeline:nth-child(4n) .timeline-icon{border-color:#93ABC2}
 .main-timeline .timeline:nth-child(4n) .title{color:#93ABC2}
