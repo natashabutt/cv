@@ -131,7 +131,7 @@ h6.emph{
 .main-timeline .timeline:nth-child(4n) .timeline-icon{border-color:#93ABC2}
 .main-timeline .timeline:nth-child(4n) .title{color:#42698F}
 .main-timeline .timeline:nth-child(4n) .timeline-content:before{border-left-color:#93ABC2;border-bottom-color:#93ABC2}
-@media only screen and (max-width:1200px){.main-timeline .timeline-icon:before{width:50px;right:-50px}
+@media only screen and (max-width:1400px){.main-timeline .timeline-icon:before{width:50px;right:-50px}
 .main-timeline .timeline:nth-child(even) .timeline-icon:before{right:auto;left:-50px}
 .main-timeline .timeline-content{margin-top:75px}
 }
