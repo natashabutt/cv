@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="description" content="Natasha Butt CV Resume Personal Page">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Data Scientiest, Freelancer, Machine Learning, Web Developer">
+  <meta name="author" content="Natasha Butt">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pontano+Sans:300,700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Natasha Butt</title>
+</head>
+
+<body>
+  <div class="title_section" id="title">
+
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#bio">Bio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#articles">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cv">CV</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- title -->
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="profile">
+          <picture>
+            <source srcset='Images/profile.webp' type='image/webp'>
+            <source srcset='Images/profile.jxr' type='image/vnd.ms-photo'>
+            <source srcset='Images/profile.jp2' type='image/jp2'>
+            <img class="img-fluid profile_pic" srcset='Images/profile.jpg' alt='Natasha Butt Photo'>
+          </picture>
+        </div>
+        <div>
+          <h1>Natasha Butt</h1>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="text just">
+        <p>I recently finished my Data Science MSc at University College London and I am on track to graduate with a distinction of 86%. My research interests include computer vision, natural language processing, Bayesian methods, statistical learning, and fairness. </p>
+        </div>
+
+        <div class="container-fluid">
+          <a href="https://www.linkedin.com/in/natasha-butt-a2b01312b/"> <i class="social-icon fab fa-linkedin fa-2x"></i></a>
+          <a href="https://medium.com/@nbutt2.314"><i class="social-icon fab fa-medium fa-2x"></i></a>
+          <a href="https://github.com/natashabutt"><i class="social-icon fab fa-github fa-2x"></i></a>
+          <a href="https://twitter.com/NatashaEve4"><i class="social-icon fab fa-twitter fa-2x"></i></a>
+          <a href="mailto:natasha.eve.butt@gmail.com"><i class="social-icon fas fa-envelope fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  <div class="white_section" id="bio">
+    <div class="pad">
+      <h2>Bio</h2>
+    </div>
+    <div class='text'>
+      <ul>
+        <li><b>2019-2020, University College London</b> - MSc in Data Science; Highest modules include <em>Introduction to Machine Learning</em> (95%), <em>Statistical Natural Language Processing</em> (89%), <em>Introduction to Data Science</em> (87%); Group project on mitigating gender bias in occupation classication using graph convolutional networks (91%); Thesis on Bayesian modelling of stop and search in the UK</li>
+        <li><b>2017-2019, Deutsche Bank</b> - Global Markets Graduate; Product and role exposure with month long rotations in Commercial Real Estate, Rates Structuring, Credit Structuring and Structured Credit Sales; Secured permanent role on Rates Structuring desk with main responsibilities including interest rate derivatives pricing, analysing market data and preparing client materials</li>
+        <li><b>2014-2017, University of Cambridge</b> - BA (Hons) in Economics Tripos, Upper Second of 64%; Project on signalling versus human capital accumulation of MBAs; Thesis on labour market discrimination against Muslim and Arab immigrants in the US (72%); Founding Co-President of the Cambridge University StartUp Society</li>
+        <li><b>2007-2014, The Tiffin Girls' School</b> - A Levels in Biology (A*), Economics (A*), Mathematics (A*), Further Mathematics (A)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grey_section" id="projects">
+    <div class="pad">
+      <h2>Projects</h2>
+    </div>
+    <div class="row pad align-items-center">
+      <div class="col-lg-4">
+        <img class="circle" srcset='Images/recruitment.png' alt=''>
+      </div>
+      <div class="col-lg-8 box">
+        <p><b>Mitigating Gender Bias in Occupation Classification</b></p>
+        <p>For my MSc natural language processing (NLP) group project, we chose to investigate the effectiveness of graph convolutional networks (GCNs) for the occupation classification of job biographies then to measure and mitigate the associated gender bias in the predictions. This was achieved by implementing in Python the Text GCN of Yao et al. (2018), <em>Graph Convolutional Networks for Text Classification</em>, derived from Kipf and Welling (2017), <em>Semi-Supervised Classification with Graph Convolutional Networks</em>. Our dataset consisted of ~100k biographies, a subset set of that used for De-Arteaga et al (2019), <em>Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting</em>. An article that I wrote on this project may be found <a href="https://towardsdatascience.com/mitigating-gender-bias-in-occupation-classification-805edb389729"> here</a>. We were pleased to received 91% from the UCL NLP department and plan to extend this project to look at bias mitigation through adversarial training on a range of tasks and models. </p>
+
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-4">
+        <img class="circle" srcset='Images/police.png' alt=''>
+      </div>
+      <div class="col-lg-8 box">
+        <p><b>Bayesian Modelling of Stop and Search in the UK</b></p>
+        <p> For my MSc summer thesis, my aim was to investigate whether there is evidence of  disproportionate use of stop and search in the UK. This was achieved through fitting Poisson generalised linear mixed models with Bayesian inference using Gibbs sampling in R with BUGS. My data sources included ~1.9m stops and searches and ~11.5m crimes from the UK Police, and socio-economic statistics on ~1.5m individuals from the 2011 UK Census. Firstly, I modelled the rate of stop and search in proportion to arrests, allowing for police force heterogeneity. Next, I looked at the rate of stop and search in proportion to resident populations at a more granular geographical level and so introduced an intrinsic conditional autoregressive effect to enable spatial smoothing. An article I wrote on the non-spatial modelling of stop and search in proportion to arrest may be found <a href="https://towardsdatascience.com/bayesian-modelling-of-uk-stop-and-search-3f9947272fce">here</a>.</p>
+        </div>
+    </div>
+
+  </div>
+  <div class="white_section" id="articles">
+    <div class="pad">
+      <h2>Articles</h2>
+    </div>
+    <div class="row text">
+      <div class="col-lg-6">
+        <picture class="medium">
+          <source srcset='Images/mediumNLP.webp' type='image/webp'>
+          <source srcset='Images/mediumNLP.jxr' type='image/vnd.ms-photo'>
+          <source srcset='Images/mediumNLP.jp2' type='image/jp2'>
+          <img class="img-fluid" srcset='Images/mediumNLP.jpg' alt='Medium preview'>
+        </picture>
+      </div>
+      <div class="col-lg-6 pad">
+        <p><b>Mitigating Gender Bias in Occupation Classification</b></p>
+        <p><em>A novel use of graph convolutional networks</em></p>
+        <p>"With increasing evidence that some outputs of Natural Language Processing (NLP)-based machine learning models may propagate societal biases, we investigate mitigating gender bias in the occupation classification of job biographies.
+          Through
+          the novel use of a graph convolutional network, we find gender bias in occupation predictions is reduced by removing explicit gender..."</p>
+        <p class="emph">Published <a href="https://towardsdatascience.com/mitigating-gender-bias-in-occupation-classification-805edb389729">here</a> with Towards Data Science</p>
+      </div>
+    </div>
+    <div class="row text">
+      <div class="col-lg-6">
+        <picture class="medium">
+          <img class="img-fluid" srcset='Images/medium4.png' alt='Medium preview'>
+        </picture>
+      </div>
+      <div class="col-lg-6 box">
+        <p><b>How to Embed React Apps in WordPress Sites</b></p>
+        <p><em>A beginner's guide to creating interactive crossword puzzles in WordPress sites with React</em></p>
+        <p>"A potential client recently asked for a React app with a flexible and responsive crossword component to be integrated with their existing WordPress site, similar to that on The Guardian. Having read around, I saw that there was no clear
+          best practise for performing this task, with a variety of different methods proposed on wp-and-react . However, these often focus on redesigning the website ...."</p>
+        <p class="emph">Published <a href="https://medium.com/better-programming/how-to-embed-react-apps-in-wordpress-sites-96a21b995290">here</a> with Better Programming</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- cv  -->
+  <div class="title_section" id="cv">
+    <h1>Curriculum Vitae</h1>
+    <p>A copy of my CV may be found <a href="https://drive.google.com/file/d/16rnNRzdmyZQ6atMn5qjyfO3KdSfsDq8E/view?usp=sharing">here</a>.</p>
+  </div>
+
+  <!-- footer   -->
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <p>© Copyright 2020 Natasha Butt</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- For scrolling -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+</body>
+
+</html>

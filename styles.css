@@ -1,0 +1,76 @@
+/* general */
+body{
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.pad{
+  padding-bottom: 5%;
+}
+
+.just{
+  text-align: justify;
+}
+
+/* sections */
+.title_section{
+  background-image: url("Images/tortoise.svg");
+  background-repeat: repeat-y;
+  background-size: 50%;
+  padding: 5% 15% 5%;
+  background-color: #404453;
+  color: white;
+  text-align: center;
+}
+
+.white_section{
+  padding: 5% 15% 5%;
+  color: #404453;
+}
+
+.grey_section{
+  padding: 5% 15% 5%;
+  background-color: #edeef5;
+  color: #404453;
+}
+
+/* nav bar */
+.nav-item{
+  text-align: right;
+}
+
+/* photos */
+
+.profile_pic{
+  width: 220px;
+  border-radius: 50%;
+  border-color: #565b6e;
+  border-width: thick;
+  border-style: solid;
+}
+
+.circle{
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%
+}
+
+/* footer */
+.social-icon {
+  margin: 0px 10px;
+  color: white;
+}
+
+.social-icon:hover {
+  color: #b1b3bc;
+}
+
+#footer p{
+  font-size: 1em;
+  color: #b1b3bc;
+  text-align: center;
+}
